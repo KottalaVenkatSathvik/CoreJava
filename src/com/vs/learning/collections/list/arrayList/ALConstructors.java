@@ -6,7 +6,7 @@ import java.util.List;
 public class ALConstructors {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// No arg constructor 
 		ArrayList<Integer> alInt=new ArrayList<Integer>();
 		//Initial Capacity
 		ArrayList<String> alStr=new ArrayList<String>(10);

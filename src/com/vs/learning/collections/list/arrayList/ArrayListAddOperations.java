@@ -25,9 +25,7 @@ public class ArrayListAddOperations {
 		customers.add(2,c3);
 		customers.add(3,c4);
 		//add customer using addLast(Element E)
-		customers.addLast(c5);
-		
-					
+		customers.addLast(c5);					
 		customers.stream().forEach(System.out::println);
 		System.out.println("Number of customers avaiable in customer list :: "+customers.size());
 		List<Customer> newCustomers=List.of(new Customer("Chameera","R", 10006, 41, "FEMALE"));
@@ -35,9 +33,6 @@ public class ArrayListAddOperations {
 		System.out.println("Add New customers to customer list:: "+newCustomers);		
 		customers.addAll(newCustomers);	
 		System.out.println("Number of customers avaiable in customer list after new customers added to the list:: "+customers.size());
-		
-		
-
 	}
 
 }
