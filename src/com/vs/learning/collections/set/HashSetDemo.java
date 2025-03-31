@@ -1,4 +1,4 @@
-package com.vs.learning.collections.set.hashset;
+package com.vs.learning.collections.set;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -14,6 +14,7 @@ public class HashSetDemo {
 		//Add items of Collections to Set using addAll(Collection c) method
 		employeeIds.addAll(ids);
 		System.out.println(employeeIds);
+		employeeIds.add(null); // RE : java.lang.NullPointerException
 		employeeIds.add(10017);
 		employeeIds.add(10017);		
 		//Add item using add(Element e)
@@ -46,6 +47,8 @@ public class HashSetDemo {
 		System.out.println("Clear Set");
 		employeeIds.clear();
 		System.out.println(employeeIds);
+		
+
 	}	 
 
 }
